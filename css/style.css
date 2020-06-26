@@ -691,9 +691,8 @@ body {
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
-    padding: 45px 0;
     position: relative;
-    padding: 10px;
+    padding: 20px 10px;
 }
 .footer-info {
     width: 30%;
