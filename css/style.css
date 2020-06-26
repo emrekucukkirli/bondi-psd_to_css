@@ -7,7 +7,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-style: normal;
+    font-style: normal;
+    counter-reset: services-box;
 }
 
 .page {
@@ -182,7 +183,6 @@ body {
 }
 .services-title .services-border::after {
     content: '';
-	height: 2px;
 	width: 65%;
 	background-color: #01bfb9;
 	position: absolute;
@@ -202,20 +202,18 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-.services-number {
     position: relative;
+ }
+.services-box::before {
+    counter-increment: services-box;
+    content: counter(services-box) '';
+    font-size: 250px;
+    font-weight: 700;
+    color: #eff7fa;
+    margin-bottom: -40px;
 }
 .services-icon {
     position: absolute;
-    bottom: 42%;
-    left: 45%;
-}
-.screen {
-    bottom: 42%;
-    left: 40%;
-}
-.cable {
     bottom: 42%;
     left: 41%;
 }
@@ -829,6 +827,11 @@ body {
     .services-box {
         padding: 60px 5px;
     }
+    .services-icon {
+        position: absolute;
+        bottom: 45%;
+        left: 39%;
+    }
     .popup-gallery {
         justify-content: center;
     }
@@ -1009,7 +1012,7 @@ body {
         width: 100%;
     }
     .services {
-        width: 100%;
+        width: 80%;
         padding: 30px 0 0 0;
     }
     .services-content {
