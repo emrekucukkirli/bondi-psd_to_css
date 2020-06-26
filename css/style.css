@@ -375,7 +375,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 55px 0;
+    padding-top: 55px;
     position: relative;
 }
 .about-title {
