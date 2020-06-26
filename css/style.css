@@ -841,6 +841,16 @@ body {
     .popup-gallery {
         justify-content: center;
     }
+    .portfolio ul li:hover {
+        background-color: #eff7fa;
+        color: #ff3150;
+        font-weight: 500;
+    }
+    .portfolio-menu ul .active {
+        color: #ff3150;
+        font-weight: 500;
+        background-color: #eff7fa;
+    }
     .about {
         padding: 55px 10px;
     }
@@ -1067,8 +1077,14 @@ body {
         padding: 0 5px;
         font-weight: normal;
     }
+    .portfolio ul li:hover {
+        background-color: #eff7fa;
+        color: #ff3150;
+        font-weight: 500;
+    }
     .portfolio-menu ul .active {
         color: #ff3150;
+        font-weight: 500;
         background-color: #eff7fa;
     }
     .popup-gallery {
