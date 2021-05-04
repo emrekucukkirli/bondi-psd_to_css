@@ -1,5 +1,5 @@
 # bondi psd to html 
-[Demo Link](http://https://bondi.vercel.app/ "Demo Link")
+[Demo Link](https://bondi.vercel.app/ "Demo Link")
 
 **Working from psd to html**
 
