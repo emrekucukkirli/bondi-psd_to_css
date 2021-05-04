@@ -1,6 +1,6 @@
-# bondi psd to html 
+# bondi psd to css 
 [Demo Link](https://bondi.vercel.app/ "Demo Link")
 
-**Working from psd to html**
+**Working from psd to css**
 
 Here is the psd files :  [GraphBerry](http://https://www.graphberry.com/item/bondi-psd-landing-page "GraphBerry")
