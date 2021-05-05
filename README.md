@@ -3,4 +3,4 @@
 
 **Working from psd to css**
 
-Here is the psd files :  [GraphBerry](http://https://www.graphberry.com/item/bondi-psd-landing-page "GraphBerry")
+Here is the psd files :  [GraphBerry](https://www.graphberry.com/item/bondi-psd-landing-page "GraphBerry")
