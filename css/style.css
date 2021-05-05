@@ -318,7 +318,7 @@ body {
     opacity: 0;
     text-align: center;
     position: absolute;
-     top: 0%;
+    top: 0%;
     color: #fff;
     font-size: 20px;
     width: 100%;
@@ -336,7 +336,7 @@ body {
 	transition:all 300ms ease ;
 }
 .gallery-item::before {
-	background-color: rgb(67, 177, 223);
+	background-color: rgb(67, 177, 223, .7);
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -477,6 +477,7 @@ body {
     padding: 50px 0 ;
 }
 .team-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -490,18 +491,25 @@ body {
     transform: scale(1.05);
 }
 .card-img {
-    padding: 30px 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.card-img img {
+    width: 100%;
 }
 .card-name {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     text-align: center;
     font-weight: 500;
     color: #fff;
-    background-color: #01bfb9;
+    background-color: rgba(1, 191, 185, 0.692);
     padding: 10px;
 }
 .card-text {
-    padding: 30px 5px;
+    padding: 30px 15px;
     text-align: center;
     color: #c5d0d5;
 }
@@ -613,7 +621,6 @@ body {
 }
 .blog-img {
     text-align: center;
-    background-color: #01bfb9;
     overflow: hidden;
 }
 .blog-date {
@@ -657,6 +664,9 @@ body {
 }
 .news-form input {
     border: none;
+}
+.news-form input:focus {
+    outline: transparent;
 }
 .news-mail {
     background-color: transparent;
@@ -890,7 +900,7 @@ body {
         margin-bottom: 20px;
     }
     .card-img {
-        width: 80%;
+        width: 100%;
     }
     .card-img img {
         width: 100%;
@@ -1033,7 +1043,6 @@ body {
 	.menu-buttons {
 		display: none;
     }
-    
 	.header-content {
         text-align: center;
         padding: 82px 0 41px 0;
@@ -1139,7 +1148,7 @@ body {
         margin: 15px 5px;
     }
     .card-img {
-        width: 80%;
+        width: 100%;
     }
     .card-img img {
         width: 100%;
